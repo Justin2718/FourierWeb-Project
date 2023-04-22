@@ -1,15 +1,33 @@
 body {
-		background-color: black;
-		color: rgb(0,255,0);
-	}
+	background-color: black;
+	color: rgb(0,255,0);
+}
 
-button { 
-		background-color: red; 
-		color: white;
-		border: none;
-		top:50%;
-	}
-	
-.myButton{
-		text-align: center;
-	}
+.fourierEquation{
+	display: block;
+	margin-bottom: 2em;
+	margin-top: 2em;
+	margin-left:auto;
+	margin-right: auto;
+}
+.a0Equation{
+	display: block;
+	margin-bottom: 2em;
+	margin-top: 2em;
+	margin-left:auto;
+	margin-right: auto;
+}
+.anEquation{
+	display: block;
+	margin-bottom: 2em;
+	margin-top: 2em;
+	margin-left:auto;
+	margin-right: auto;
+}
+.bnEquation{
+	display: block;
+	margin-bottom: 2em;
+	margin-top: 2em;
+	margin-left:auto;
+	margin-right: auto;
+}
