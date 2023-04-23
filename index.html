@@ -1,36 +1,65 @@
 
 <link href= "Fourier.css" rel ="stylesheet" type="text/css">
 
-<html>
-	<center><h1>The Fourier Series</h1></center>
-	
-	<font size = "4">
-		 In simple terms, the Fourier Series is a mathematical technique that involves combining different waves to create any type of continuous function. This method was originally developed by Jean Baptiste Joseph Fourier in 1807 as a tool to solve differential equations related to heat conduction. By representing complex functions as a sum of simpler waves, the Fourier Series provides a powerful method for analyzing and manipulating various signals in fields such as mathematics, physics, and engineering.
-</html>
+
+<font size = "11"><center><h1>The Fourier Series</h1></center></font>
+<center><h1>Fourier Series Explanation</h1></center>
+<font size = "4">
+		 In simple terms, the Fourier Series is a mathematical technique that involves 
+		 combining different waves to create any type of continuous function. 
+		 This method was originally developed by Jean Baptiste Joseph Fourier in 
+		 1807 as a tool to solve differential equations related to heat conduction. 
+		 By representing complex functions as a sum of simpler waves, the Fourier 
+		 Series provides a powerful method for analyzing and manipulating various 
+		 signals in fields such as mathematics, physics, nd engineering.
+
 
 
 
 <img src ="Pictures/FourierEquation.png" alt= "The Fourier Series Equation" class = "fourierEquation">
 
 	
-	The symbol that resembles a weird "E" is a Riemann sum, which you can interpret as a loop. The upper and lower limits of the loop denote the starting and ending values of the index variable "n," which starts at 1. Think of the "E" as an update that occurs within each iteration of the loop. The upper limit of the loop is infinity, which serves as the stopping condition.
+	The symbol that resembles a weird "E" is a Riemann sum, which you can interpret as a loop. 
+	The upper and lower limits of the loop denote the starting and ending values of the index 
+	variable "n," which starts at 1. Think of the "E" as an update that occurs within each 
+	iteration of the loop. The upper limit of the loop is infinity, which serves as the stopping 
+	condition.
 <br></br>
-	It is also important to note that "L" represents the length of the function being recreated. A0, An, and Bn are simply terms that mathematicians use to simplify equations for easier notation. Think of them as methods. The equations for each method will be shown below.
+	It is also important to note that "L" represents the length of the function being recreated. 
+	A0, An, and Bn are simply terms that mathematicians use to simplify equations for easier 
+	notation. Think of them as methods. The equations for each method will be shown below.
 
 
 <img src ="Pictures/a0equation.PNG" alt= "Sub Equartion of Fourier Series A0" class = "a0Equation">
 
-	The first simplification in the Fourier Series equation involves the constant term, which is denoted by "a0." To better understand this, consider the equation y = mx + c. Here, "a0" corresponds to the constant term "c," which determines the vertical shift of the function. The value of "a0" is dependent on the average value of the function over the period length that you select, which can either shift the function up or down.
+	The first simplification in the Fourier Series equation involves the constant term, which 
+	is denoted by "a0." To better understand this, consider the equation y = mx + c. Here, "a0" 
+	corresponds to the constant term "c," which determines the vertical shift of the function. 
+	The value of "a0" is dependent on the average value of the function over the period length 
+	that you select, which can either shift the function up or down.
 
 <img src ="Pictures/anequation.PNG" alt= "Sub Equartion of Fourier Series An" class = "anEquation">
-
-	The second simplification of the Fourier Series equation is closely related to the third simplification. To better understand this, consider the analogy of mixing paint. In this case, the cosine wave can be thought of as black paint, while the sine wave is white paint. Every possible function can be represented as a shade of gray, and by combining sine and cosine waves, you can create any shade of gray.
-	<br></br>
-	It's important to note that certain functions will have a stronger resemblance to cosine waves than sine waves, and vice versa. The second, and third simplification is about breaking down the function into its individual components of sine and cosine waves, which allows you to accurately represent it as a combination of different shades of gray.
-
 <img src ="Pictures/bnequation.PNG" alt= "Sub Equartion of Fourier Series Bn" class = "bnEquation">
 
-</font>
+<div class = "introEnd">
+	The second simplification of the Fourier Series equation is closely related to the third 
+	simplification, so I'll be explaing both of them at the same time. To better understand 
+	this, consider the analogy of mixing paint. In this case, the cosine wave can be thought 
+	of as black paint, while the sine wave is white paint. Every possible function can be 
+	represented as a shade of gray, and by combining sine and cosine waves, you can create 
+	any shade of gray.
+	<br></br>
+	It's important to note that certain functions will have a stronger resemblance to cosine 
+	waves than sine waves, and vice versa. The second, and third simplification is about 
+	breaking down the function into its individual components of sine and cosine waves, which 
+	allows you to accurately represent it as a combination of different shades of gray.
+</div>
 
+<center><h2>Animation</h2></center>
+	
+	Now we can animate waves by having a line thatis constant length while it's angle changes 
+	and plot it's x postion along time which will produce a cosin wave while plotting it's y 
+	postion over time will produce a sin wave.
 
-<!--...E:/FourierProject/Pictures/-->
+<canvas id ="coSin" class = "coSin" width = 800 height = "250" style = "border:2px solid white;" ></canvas>
+<script src ="coSinAnime.js"></script>

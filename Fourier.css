@@ -1,6 +1,6 @@
 body {
 	background-color: black;
-	color: rgb(0,255,0);
+	color: greenyellow;
 }
 
 .fourierEquation{
@@ -29,5 +29,15 @@ body {
 	margin-bottom: 2em;
 	margin-top: 2em;
 	margin-left:auto;
+	margin-right: auto;
+}
+.introEnd{
+	display: block;
+	margin-bottom: 3em;
+}
+.coSin {
+	display: block;
+	margin-top: 2em;
+	margin-left: auto;
 	margin-right: auto;
 }
