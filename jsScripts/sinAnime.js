@@ -42,7 +42,7 @@ function sinAnimateCircle()
     sinXPos += sinXStart;
     sinYPos += sinYStart;
 
-    sinBrush.clearRect(sinXStart-100,sinYStart-100,sinXStart+100,sinYStart+100);
+    sinBrush.clearRect(sinXStart-101,sinYStart-101,sinXStart+101,sinYStart+101);
     sinBrush.beginPath();
     sinBrush.moveTo(sinXStart, sinYStart);
     sinBrush.lineTo(sinXPos, sinYPos);

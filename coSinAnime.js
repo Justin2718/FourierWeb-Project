@@ -38,7 +38,7 @@ var yPos = 0;
         xPos += xStart;
         yPos += yStart;
 
-        brush.clearRect(xStart-100,yStart-100,xStart+100,yStart+100);
+        brush.clearRect(xStart-101,yStart-101,xStart+101,yStart+101);
         brush.beginPath();
         brush.moveTo(xStart, yStart);
         brush.lineTo(xPos, yPos);
