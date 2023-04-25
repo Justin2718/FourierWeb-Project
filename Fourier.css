@@ -2,8 +2,42 @@ body {
 	background-color: black;
 	color: lime;
 }
-
-.EquationCss{
+.FourierEquation{
+	display: block;
+	margin-bottom: 2em;
+	margin-top: 2em;
+	margin-left:auto;
+	margin-right: auto;
+}
+.a0equation{
+	display: block;
+	margin-bottom: 2em;
+	margin-top: 2em;
+	margin-left:auto;
+	margin-right: auto;
+}
+.anequation{
+	display: block;
+	margin-bottom: 2em;
+	margin-top: 2em;
+	margin-left:auto;
+	margin-right: auto;
+}
+.bnequation{
+	display: block;
+	margin-bottom: 2em;
+	margin-top: 2em;
+	margin-left:auto;
+	margin-right: auto;
+}
+.cos{
+	display: block;
+	margin-bottom: 2em;
+	margin-top: 2em;
+	margin-left:auto;
+	margin-right: auto;
+}
+.sin{
 	display: block;
 	margin-bottom: 2em;
 	margin-top: 2em;
